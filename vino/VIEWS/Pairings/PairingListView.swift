@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct PairingListView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    var pairing: Pairing
 
-#Preview {
-    PairingListView()
+    var body: some View {
+        Text(pairing.title)
+            .font(.custom("DMSerifDisplay-Regular", size: 30))
+            .foregroundStyle(Color.black)
+    }
 }

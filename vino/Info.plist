@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DMSerifDisplay-Regular.ttf</string>
+		<string>DMSerifDisplay-Italic.ttf</string>
+		<string>Oswald-Regular.ttf</string>
+		<string>Oswald-Bold.ttf</string>
+	</array>
+</dict>
+</plist>

@@ -7,18 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF690D7E2B489707008B52F3 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF690D7D2B489707008B52F3 /* Oswald-Regular.ttf */; };
+		CF690D802B489CE4008B52F3 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF690D7F2B489CE4008B52F3 /* Oswald-Bold.ttf */; };
+		CF690D832B48AE94008B52F3 /* NewVineyardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D822B48AE94008B52F3 /* NewVineyardView.swift */; };
+		CF690D872B4C4718008B52F3 /* SearchableMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D862B4C4718008B52F3 /* SearchableMap.swift */; };
+		CF690D892B4C47BB008B52F3 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D882B4C47BB008B52F3 /* SheetView.swift */; };
+		CF690D8B2B4C48BE008B52F3 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D8A2B4C48BE008B52F3 /* LocationService.swift */; };
+		CF690D8E2B5074EC008B52F3 /* WineInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D8D2B5074EC008B52F3 /* WineInfoView.swift */; };
+		CF690D902B507B6F008B52F3 /* 2018-alexander-valley-jordan-cabernet-sauvignon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF690D8F2B507B6F008B52F3 /* 2018-alexander-valley-jordan-cabernet-sauvignon.jpeg */; };
+		CF690D922B507C61008B52F3 /* HorizontalImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D912B507C61008B52F3 /* HorizontalImageScrollView.swift */; };
+		CF690D972B50844F008B52F3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D962B50844F008B52F3 /* UIColorExtension.swift */; };
+		CF690D992B509E43008B52F3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D982B509E43008B52F3 /* Location.swift */; };
+		CF690D9D2B5180D4008B52F3 /* VineyardMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690D9C2B5180D4008B52F3 /* VineyardMapView.swift */; };
+		CF690D9F2B5192C1008B52F3 /* 3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic in Resources */ = {isa = PBXBuildFile; fileRef = CF690D9E2B5192C1008B52F3 /* 3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic */; };
+		CF690DA12B51DF7D008B52F3 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690DA02B51DF7D008B52F3 /* PhotoPickerView.swift */; };
+		CF690DA32B54CDE7008B52F3 /* PairingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF690DA22B54CDE7008B52F3 /* PairingsView.swift */; };
+		CF703ADD2B684C67006F1F06 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703ADC2B684C67006F1F06 /* Pairing.swift */; };
+		CF703B0C2B6AD105006F1F06 /* PairingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B0B2B6AD105006F1F06 /* PairingListView.swift */; };
+		CF703B0E2B6AD353006F1F06 /* PairingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */; };
+		CF703B122B6ADEBB006F1F06 /* WineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B112B6ADEBB006F1F06 /* WineCard.swift */; };
+		CF703B172B71456A006F1F06 /* AccountManagmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B162B71456A006F1F06 /* AccountManagmentView.swift */; };
+		CFBF48262B618A5100E86B0D /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF48252B618A5100E86B0D /* Checkbox.swift */; };
+		CFBF48282B618FFA00E86B0D /* WineDescriptorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF48272B618FFA00E86B0D /* WineDescriptorsListView.swift */; };
 		CFF959A32B360CBB0009736E /* vinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959A22B360CBB0009736E /* vinoApp.swift */; };
 		CFF959A52B360CBB0009736E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959A42B360CBB0009736E /* ContentView.swift */; };
 		CFF959A72B360CBB0009736E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF959A62B360CBB0009736E /* Assets.xcassets */; };
 		CFF959AA2B360CBB0009736E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF959A92B360CBB0009736E /* Preview Assets.xcassets */; };
+		CFF959B52B360DF90009736E /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959B42B360DF90009736E /* Wine.swift */; };
+		CFF959B72B360E010009736E /* Vineyard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959B62B360E010009736E /* Vineyard.swift */; };
+		CFF959B92B360E0E0009736E /* UserObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959B82B360E0E0009736E /* UserObj.swift */; };
+		CFF959BB2B360E450009736E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959BA2B360E450009736E /* Model.swift */; };
+		CFF959BD2B360E6F0009736E /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFF959BC2B360E6F0009736E /* DMSerifDisplay-Regular.ttf */; };
+		CFF959BF2B360E760009736E /* DMSerifDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFF959BE2B360E760009736E /* DMSerifDisplay-Italic.ttf */; };
+		CFF959C22B360EB50009736E /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959C12B360EB50009736E /* DBHelper.swift */; };
+		CFF959C42B360EC50009736E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959C32B360EC50009736E /* DataController.swift */; };
+		CFF959C72B360F8A0009736E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959C62B360F8A0009736E /* LogInView.swift */; };
+		CFF959C92B360FA00009736E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959C82B360FA00009736E /* SignUpView.swift */; };
+		CFF959CB2B360FBA0009736E /* VinoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959CA2B360FBA0009736E /* VinoMainView.swift */; };
+		CFF959CD2B360FD20009736E /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959CC2B360FD20009736E /* MyListView.swift */; };
+		CFF959CF2B360FEB0009736E /* NewWineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959CE2B360FEB0009736E /* NewWineView.swift */; };
+		CFF959D12B3610150009736E /* WineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959D02B3610150009736E /* WineListView.swift */; };
+		CFF959D42B36105E0009736E /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959D32B36105E0009736E /* ImagePickerView.swift */; };
+		CFF959D62B3610A00009736E /* ferrari_carano_gardens_original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFF959D52B3610A00009736E /* ferrari_carano_gardens_original.jpg */; };
+		CFF959DC2B39F8E20009736E /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959DB2B39F8E20009736E /* CustomNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF690D7D2B489707008B52F3 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		CF690D7F2B489CE4008B52F3 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		CF690D822B48AE94008B52F3 /* NewVineyardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVineyardView.swift; sourceTree = "<group>"; };
+		CF690D862B4C4718008B52F3 /* SearchableMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableMap.swift; sourceTree = "<group>"; };
+		CF690D882B4C47BB008B52F3 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		CF690D8A2B4C48BE008B52F3 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		CF690D8D2B5074EC008B52F3 /* WineInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineInfoView.swift; sourceTree = "<group>"; };
+		CF690D8F2B507B6F008B52F3 /* 2018-alexander-valley-jordan-cabernet-sauvignon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2018-alexander-valley-jordan-cabernet-sauvignon.jpeg"; sourceTree = SOURCE_ROOT; };
+		CF690D912B507C61008B52F3 /* HorizontalImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalImageScrollView.swift; sourceTree = "<group>"; };
+		CF690D962B50844F008B52F3 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		CF690D982B509E43008B52F3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CF690D9C2B5180D4008B52F3 /* VineyardMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VineyardMapView.swift; sourceTree = "<group>"; };
+		CF690D9E2B5192C1008B52F3 /* 3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic"; sourceTree = "<group>"; };
+		CF690DA02B51DF7D008B52F3 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		CF690DA22B54CDE7008B52F3 /* PairingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingsView.swift; sourceTree = "<group>"; };
+		CF703ADC2B684C67006F1F06 /* Pairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairing.swift; sourceTree = "<group>"; };
+		CF703B0B2B6AD105006F1F06 /* PairingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingListView.swift; sourceTree = "<group>"; };
+		CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingInfoView.swift; sourceTree = "<group>"; };
+		CF703B112B6ADEBB006F1F06 /* WineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCard.swift; sourceTree = "<group>"; };
+		CF703B162B71456A006F1F06 /* AccountManagmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagmentView.swift; sourceTree = "<group>"; };
+		CFBF48252B618A5100E86B0D /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		CFBF48272B618FFA00E86B0D /* WineDescriptorsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDescriptorsListView.swift; sourceTree = "<group>"; };
 		CFF9599F2B360CBB0009736E /* vino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF959A22B360CBB0009736E /* vinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinoApp.swift; sourceTree = "<group>"; };
 		CFF959A42B360CBB0009736E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFF959A62B360CBB0009736E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF959A92B360CBB0009736E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFF959B42B360DF90009736E /* Wine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		CFF959B62B360E010009736E /* Vineyard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vineyard.swift; sourceTree = "<group>"; };
+		CFF959B82B360E0E0009736E /* UserObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObj.swift; sourceTree = "<group>"; };
+		CFF959BA2B360E450009736E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CFF959BC2B360E6F0009736E /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		CFF959BE2B360E760009736E /* DMSerifDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		CFF959C12B360EB50009736E /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		CFF959C32B360EC50009736E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CFF959C52B360F0E0009736E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFF959C62B360F8A0009736E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		CFF959C82B360FA00009736E /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CFF959CA2B360FBA0009736E /* VinoMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinoMainView.swift; sourceTree = "<group>"; };
+		CFF959CC2B360FD20009736E /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		CFF959CE2B360FEB0009736E /* NewWineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWineView.swift; sourceTree = "<group>"; };
+		CFF959D02B3610150009736E /* WineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineListView.swift; sourceTree = "<group>"; };
+		CFF959D32B36105E0009736E /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		CFF959D52B3610A00009736E /* ferrari_carano_gardens_original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ferrari_carano_gardens_original.jpg; sourceTree = "<group>"; };
+		CFF959D72B36134A0009736E /* vino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vino.entitlements; sourceTree = "<group>"; };
+		CFF959DB2B39F8E20009736E /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +112,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF690D812B48AE78008B52F3 /* New WIne */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959CE2B360FEB0009736E /* NewWineView.swift */,
+				CFBF48272B618FFA00E86B0D /* WineDescriptorsListView.swift */,
+			);
+			path = "New WIne";
+			sourceTree = "<group>";
+		};
+		CF690D842B4C46C6008B52F3 /* NewVineyard */ = {
+			isa = PBXGroup;
+			children = (
+				CF690D822B48AE94008B52F3 /* NewVineyardView.swift */,
+			);
+			path = NewVineyard;
+			sourceTree = "<group>";
+		};
+		CF690D852B4C46FC008B52F3 /* MAP VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				CF690D862B4C4718008B52F3 /* SearchableMap.swift */,
+				CF690D882B4C47BB008B52F3 /* SheetView.swift */,
+				CF690D8A2B4C48BE008B52F3 /* LocationService.swift */,
+				CF690D9C2B5180D4008B52F3 /* VineyardMapView.swift */,
+			);
+			path = "MAP VIEWS";
+			sourceTree = "<group>";
+		};
+		CF690D8C2B5074B6008B52F3 /* INFO PAGES */ = {
+			isa = PBXGroup;
+			children = (
+				CF690D8D2B5074EC008B52F3 /* WineInfoView.swift */,
+			);
+			path = "INFO PAGES";
+			sourceTree = "<group>";
+		};
+		CF690D952B508439008B52F3 /* EXTENSIONS */ = {
+			isa = PBXGroup;
+			children = (
+				CF690D962B50844F008B52F3 /* UIColorExtension.swift */,
+			);
+			name = EXTENSIONS;
+			sourceTree = "<group>";
+		};
+		CF703B0A2B6AD0DF006F1F06 /* Pairings */ = {
+			isa = PBXGroup;
+			children = (
+				CF690DA22B54CDE7008B52F3 /* PairingsView.swift */,
+				CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */,
+				CF703B0B2B6AD105006F1F06 /* PairingListView.swift */,
+			);
+			path = Pairings;
+			sourceTree = "<group>";
+		};
+		CF703B132B71451F006F1F06 /* LogIn & SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959C82B360FA00009736E /* SignUpView.swift */,
+				CFF959C62B360F8A0009736E /* LogInView.swift */,
+			);
+			path = "LogIn & SignUp";
+			sourceTree = "<group>";
+		};
+		CF703B142B71453E006F1F06 /* WineList */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959D02B3610150009736E /* WineListView.swift */,
+				CFF959CC2B360FD20009736E /* MyListView.swift */,
+			);
+			path = WineList;
+			sourceTree = "<group>";
+		};
+		CF703B152B71454E006F1F06 /* Account Managment */ = {
+			isa = PBXGroup;
+			children = (
+				CF703B162B71456A006F1F06 /* AccountManagmentView.swift */,
+			);
+			path = "Account Managment";
+			sourceTree = "<group>";
+		};
 		CFF959962B360CBB0009736E = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +211,21 @@
 		CFF959A12B360CBB0009736E /* vino */ = {
 			isa = PBXGroup;
 			children = (
+				CF690D952B508439008B52F3 /* EXTENSIONS */,
+				CFF959D72B36134A0009736E /* vino.entitlements */,
+				CFF959C52B360F0E0009736E /* Info.plist */,
 				CFF959A22B360CBB0009736E /* vinoApp.swift */,
 				CFF959A42B360CBB0009736E /* ContentView.swift */,
+				CFF959CA2B360FBA0009736E /* VinoMainView.swift */,
+				CFF959B02B360CF00009736E /* VIEWS */,
+				CFF959B22B360D080009736E /* STRUCTS */,
+				CFF959B12B360CFB0009736E /* OBJECTS */,
+				CFF959C02B360E860009736E /* DBHelper */,
+				CFF959B32B360D1A0009736E /* FONTS */,
 				CFF959A62B360CBB0009736E /* Assets.xcassets */,
+				CF690D9E2B5192C1008B52F3 /* 3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic */,
+				CF690D8F2B507B6F008B52F3 /* 2018-alexander-valley-jordan-cabernet-sauvignon.jpeg */,
+				CFF959D52B3610A00009736E /* ferrari_carano_gardens_original.jpg */,
 				CFF959A82B360CBB0009736E /* Preview Content */,
 			);
 			path = vino;
@@ -65,6 +237,75 @@
 				CFF959A92B360CBB0009736E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFF959B02B360CF00009736E /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				CF703B152B71454E006F1F06 /* Account Managment */,
+				CF703B142B71453E006F1F06 /* WineList */,
+				CF703B132B71451F006F1F06 /* LogIn & SignUp */,
+				CF703B0A2B6AD0DF006F1F06 /* Pairings */,
+				CF690D8C2B5074B6008B52F3 /* INFO PAGES */,
+				CF690D852B4C46FC008B52F3 /* MAP VIEWS */,
+				CF690D842B4C46C6008B52F3 /* NewVineyard */,
+				CF690D812B48AE78008B52F3 /* New WIne */,
+				CFF959D22B36103D0009736E /* HELPER_VIEWS */,
+			);
+			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		CFF959B12B360CFB0009736E /* OBJECTS */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959B42B360DF90009736E /* Wine.swift */,
+				CFF959B62B360E010009736E /* Vineyard.swift */,
+				CFF959B82B360E0E0009736E /* UserObj.swift */,
+				CF703ADC2B684C67006F1F06 /* Pairing.swift */,
+			);
+			path = OBJECTS;
+			sourceTree = "<group>";
+		};
+		CFF959B22B360D080009736E /* STRUCTS */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959BA2B360E450009736E /* Model.swift */,
+				CF690D982B509E43008B52F3 /* Location.swift */,
+			);
+			path = STRUCTS;
+			sourceTree = "<group>";
+		};
+		CFF959B32B360D1A0009736E /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959BC2B360E6F0009736E /* DMSerifDisplay-Regular.ttf */,
+				CFF959BE2B360E760009736E /* DMSerifDisplay-Italic.ttf */,
+				CF690D7D2B489707008B52F3 /* Oswald-Regular.ttf */,
+				CF690D7F2B489CE4008B52F3 /* Oswald-Bold.ttf */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+		CFF959C02B360E860009736E /* DBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959C12B360EB50009736E /* DBHelper.swift */,
+				CFF959C32B360EC50009736E /* DataController.swift */,
+			);
+			path = DBHelper;
+			sourceTree = "<group>";
+		};
+		CFF959D22B36103D0009736E /* HELPER_VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				CFF959D32B36105E0009736E /* ImagePickerView.swift */,
+				CFF959DB2B39F8E20009736E /* CustomNavBar.swift */,
+				CF690D912B507C61008B52F3 /* HorizontalImageScrollView.swift */,
+				CF690DA02B51DF7D008B52F3 /* PhotoPickerView.swift */,
+				CFBF48252B618A5100E86B0D /* Checkbox.swift */,
+				CF703B112B6ADEBB006F1F06 /* WineCard.swift */,
+			);
+			path = HELPER_VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +366,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF959BF2B360E760009736E /* DMSerifDisplay-Italic.ttf in Resources */,
+				CF690D902B507B6F008B52F3 /* 2018-alexander-valley-jordan-cabernet-sauvignon.jpeg in Resources */,
+				CF690D7E2B489707008B52F3 /* Oswald-Regular.ttf in Resources */,
 				CFF959AA2B360CBB0009736E /* Preview Assets.xcassets in Resources */,
+				CFF959D62B3610A00009736E /* ferrari_carano_gardens_original.jpg in Resources */,
 				CFF959A72B360CBB0009736E /* Assets.xcassets in Resources */,
+				CF690D9F2B5192C1008B52F3 /* 3A1434BE-0A8D-4463-B6DC-91F4FEE0DEF1.heic in Resources */,
+				CF690D802B489CE4008B52F3 /* Oswald-Bold.ttf in Resources */,
+				CFF959BD2B360E6F0009736E /* DMSerifDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +385,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF690D832B48AE94008B52F3 /* NewVineyardView.swift in Sources */,
+				CF703B122B6ADEBB006F1F06 /* WineCard.swift in Sources */,
+				CF703B0E2B6AD353006F1F06 /* PairingInfoView.swift in Sources */,
+				CF703B172B71456A006F1F06 /* AccountManagmentView.swift in Sources */,
+				CFF959CF2B360FEB0009736E /* NewWineView.swift in Sources */,
+				CF690D9D2B5180D4008B52F3 /* VineyardMapView.swift in Sources */,
+				CF690D8B2B4C48BE008B52F3 /* LocationService.swift in Sources */,
+				CFBF48262B618A5100E86B0D /* Checkbox.swift in Sources */,
+				CFF959CD2B360FD20009736E /* MyListView.swift in Sources */,
+				CF690D972B50844F008B52F3 /* UIColorExtension.swift in Sources */,
+				CFF959DC2B39F8E20009736E /* CustomNavBar.swift in Sources */,
+				CF690DA32B54CDE7008B52F3 /* PairingsView.swift in Sources */,
+				CF690D8E2B5074EC008B52F3 /* WineInfoView.swift in Sources */,
 				CFF959A52B360CBB0009736E /* ContentView.swift in Sources */,
+				CF690D922B507C61008B52F3 /* HorizontalImageScrollView.swift in Sources */,
 				CFF959A32B360CBB0009736E /* vinoApp.swift in Sources */,
+				CF690DA12B51DF7D008B52F3 /* PhotoPickerView.swift in Sources */,
+				CF703B0C2B6AD105006F1F06 /* PairingListView.swift in Sources */,
+				CF690D992B509E43008B52F3 /* Location.swift in Sources */,
+				CFF959D42B36105E0009736E /* ImagePickerView.swift in Sources */,
+				CFF959B52B360DF90009736E /* Wine.swift in Sources */,
+				CFF959C22B360EB50009736E /* DBHelper.swift in Sources */,
+				CFF959BB2B360E450009736E /* Model.swift in Sources */,
+				CF690D872B4C4718008B52F3 /* SearchableMap.swift in Sources */,
+				CF703ADD2B684C67006F1F06 /* Pairing.swift in Sources */,
+				CFF959C42B360EC50009736E /* DataController.swift in Sources */,
+				CFF959C92B360FA00009736E /* SignUpView.swift in Sources */,
+				CFF959CB2B360FBA0009736E /* VinoMainView.swift in Sources */,
+				CFF959C72B360F8A0009736E /* LogInView.swift in Sources */,
+				CFF959D12B3610150009736E /* WineListView.swift in Sources */,
+				CFBF48282B618FFA00E86B0D /* WineDescriptorsListView.swift in Sources */,
+				CF690D892B4C47BB008B52F3 /* SheetView.swift in Sources */,
+				CFF959B92B360E0E0009736E /* UserObj.swift in Sources */,
+				CFF959B72B360E010009736E /* Vineyard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +549,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vino/vino.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vino/Preview Content\"";
 				DEVELOPMENT_TEAM = 833BN68HTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vino/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please let app use camera and photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +568,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JonGrimes.vino;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonGrimes.vino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,12 +581,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vino/vino.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vino/Preview Content\"";
 				DEVELOPMENT_TEAM = 833BN68HTQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vino/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please let app use camera and photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +600,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JonGrimes.vino;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonGrimes.vino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

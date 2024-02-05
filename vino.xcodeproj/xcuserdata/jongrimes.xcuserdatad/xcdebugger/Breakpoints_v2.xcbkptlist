@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DB4A8DFF-580E-42EC-83CF-1883F00E7501"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC0AC38A-110B-49E6-8015-AD8B89572F15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/OBJECTS/UserObj.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "init(ckrecord:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/OBJECTS/UserObj.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "init(ckrecord:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - 308b70d79d4d7ccf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - f7598c89132d3d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - dc47b1dcc0b43b68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - dc47b1dcc0b438cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - 6bf3f2c2261be76e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "23AD3BE8-F63D-4AA9-A67D-57553DC67CE3 - 6bf3f2c2261be4cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 @Sendable () async -&gt; () in vino.UserObj.init(ckrecord: __C.CKRecord) async throws -&gt; vino.UserObj"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/OBJECTS/UserObj.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8D103DD-BBC7-4892-A268-04B40190F153"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/VIEWS/LogInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA88E954-5B12-4E1B-82EE-F27A55DC7617"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/VIEWS/LogInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getUserRecord()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0CB815D-0C3A-4D42-8498-E7A0A05C5616"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/VinoMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEF67787-A455-4139-B664-1074633879AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vino/VIEWS/LogInView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "loginCustomer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEF67787-A455-4139-B664-1074633879AD - c3fcea4d38dce9ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for vino.LoginForm.loginCustomer() async throws -&gt; ()"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/VIEWS/LogInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "FEF67787-A455-4139-B664-1074633879AD - 4e7ab7635c3b30a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for vino.LoginForm.loginCustomer() async throws -&gt; ()"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/VIEWS/LogInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "FEF67787-A455-4139-B664-1074633879AD - ca83708161a65ba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for vino.LoginForm.loginCustomer() async throws -&gt; ()"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/VIEWS/LogInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "FEF67787-A455-4139-B664-1074633879AD - c3fcea4d38dce9ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for vino.LoginForm.loginCustomer() async throws -&gt; ()"
+                  moduleName = "vino"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jongrimes/Downloads/vino/vino/VIEWS/LogInView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

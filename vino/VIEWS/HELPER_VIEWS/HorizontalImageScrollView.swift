@@ -10,7 +10,9 @@ import PhotosUI
 import CloudKit
 
 struct HorizontalImageScrollView: View {
-    @Binding var wine: Wine
+    @Binding var images: [UIImage]
+    @State var recordType: String
+    @State var recordID: CKRecord.ID
  
     //For selecting / adding phtotos
     @State private var photoPickerPresented: Bool = false
@@ -22,7 +24,7 @@ struct HorizontalImageScrollView: View {
             ScrollView(.horizontal, content: {
                 //parse through images that exist
                 HStack {
-                    ForEach(wine.images, id: \.self) { image in
+                    ForEach(images, id: \.self) { image in
                         Image(uiImage: image)
                             .resizable()
                             .scaledToFill()
@@ -45,9 +47,9 @@ struct HorizontalImageScrollView: View {
                             if let data = try? await selectedItem?.loadTransferable(type: Data.self) {
                                 image = UIImage(data: data)
                                 //add image to local object
-                                wine.images.append(image!)
-                                //update record in DB
-                              //  updateWineRecordPhotos(wine.images)
+                                images.append(image!)
+                                updateRecordPhotos(images)
+                                
                             } else {
                                 print("Failed to load the image")
                             }
@@ -57,12 +59,12 @@ struct HorizontalImageScrollView: View {
             })
         }
     
-    private func updateWineRecordPhotos(_ images: [UIImage]) {
+    private func updateRecordPhotos(_ images: [UIImage]) {
         let cloudDB = CKContainer.default().publicCloudDatabase
-        let wineRecord = CKRecord(recordType: "Wine", recordID: wine.recordID)
+        let recordToUpdate = CKRecord(recordType: recordType, recordID: recordID)
         var imageAssets: [CKAsset] = []
         
-        for image in wine.images {
+        for image in images {
             //convert pfp UIImage to CKAsset to add to DB
             let imageData = image.jpegData(compressionQuality: 1.0)
             //fix to provide default
@@ -79,35 +81,32 @@ struct HorizontalImageScrollView: View {
             imageAssets.append(CKAsset(fileURL: url))
         }
         
-        wineRecord.setValuesForKeys([
+        recordToUpdate.setValuesForKeys([
             "Pictures": imageAssets
         ])
         
-        let updateWineImages = CKModifyRecordsOperation(recordsToSave: [wineRecord])
-        updateWineImages.savePolicy = .changedKeys
+        let updateImages = CKModifyRecordsOperation(recordsToSave: [recordToUpdate])
+        updateImages.savePolicy = .changedKeys
         
         //save changes to users wine list
-        cloudDB.add(updateWineImages)
+        cloudDB.add(updateImages)
     }
+    
     
 }
 
-//#Preview {
-//    
-//    HorizontalImageScrollView(wine: $wine)
-//}
 
-struct HorizontalImageScrollView_Previews: PreviewProvider {
-    static var previews: some View {
-        @State var wine = Wine("Cabernet Sauvignon",
-                               "2018",
-                               Vineyard("Jordan Winery & Vineyard",
-                                        CLLocation(
-                                          latitude: CLLocationDegrees(floatLiteral: 38.6562),
-                                          longitude: CLLocationDegrees(floatLiteral: -122.8438)),
-                                        "https://www.jordanwinery.com/"),
-                               [UIImage(named: "2018-alexander-valley-jordan-cabernet-sauvignon")!]
-                              )
-        HorizontalImageScrollView(wine: $wine)
-    }
-}
+//struct HorizontalImageScrollView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        @State var wine = Wine("Cabernet Sauvignon",
+//                               "2018",
+//                               Vineyard("Jordan Winery & Vineyard",
+//                                        CLLocation(
+//                                          latitude: CLLocationDegrees(floatLiteral: 38.6562),
+//                                          longitude: CLLocationDegrees(floatLiteral: -122.8438)),
+//                                        "https://www.jordanwinery.com/"),
+//                               [UIImage(named: "2018-alexander-valley-jordan-cabernet-sauvignon")!]
+//                              )
+//        HorizontalImageScrollView(images: $wine.images, recordType: "Wine")
+//    }
+//}

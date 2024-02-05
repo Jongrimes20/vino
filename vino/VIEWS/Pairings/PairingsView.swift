@@ -11,10 +11,16 @@ struct PairingsView: View {
     @EnvironmentObject var model: Model
     
     var body: some View {
-        Text("pairings")
+        NavigationStack {
+            List {
+                ForEach($model.pairings.indices, id: \.self) { index in
+                    NavigationLink(destination: {
+                        PairingInfoView(pairing: $model.pairings[index], model: model)
+                    }, label: {
+                        PairingListView(pairing: model.pairings[index])
+                    })
+                }
+            }
+        }
     }
-}
-
-#Preview {
-    PairingsView()
 }

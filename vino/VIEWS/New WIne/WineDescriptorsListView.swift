@@ -8,11 +8,32 @@
 import SwiftUI
 
 struct WineDescriptorsListView: View {
+    @EnvironmentObject var model: Model
+    @Binding var descriptorArray: Set<String>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            RoundedRectangle(cornerRadius: 5.0)
+                .frame(width: 30, height: 5)
+                .foregroundStyle(Color.gray)
+                .padding()
+            List {
+                ForEach(model.wineDescriptors, id: \.self) { descriptor in
+                    HStack {
+                        Checkbox(isChecked: descriptorArray.contains(descriptor))
+                            .onTapGesture {
+                                if self.descriptorArray.contains(descriptor) {
+                                    self.descriptorArray.remove(descriptor)
+                                } else {
+                                    self.descriptorArray.insert(descriptor)
+                                }
+                            }
+                        Text(descriptor)
+                            .font(.custom("Oswald-Regular", size: 20))
+                    }
+                }
+            }
+        }
     }
 }
 
-#Preview {
-    WineDescriptorsListView()
-}
