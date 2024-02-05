@@ -199,6 +199,8 @@ struct AccountManagmentView: View {
         }
         // Update Record 
         if infoChanged {
+            //update model.active user
+            
             let cloudDB = CKContainer.default().publicCloudDatabase
             let userRecord = CKRecord(recordType: "AccountInfo", recordID: model.activeUser.recordID)
             

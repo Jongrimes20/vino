@@ -27,6 +27,7 @@
 		CF703B0E2B6AD353006F1F06 /* PairingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */; };
 		CF703B122B6ADEBB006F1F06 /* WineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B112B6ADEBB006F1F06 /* WineCard.swift */; };
 		CF703B172B71456A006F1F06 /* AccountManagmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B162B71456A006F1F06 /* AccountManagmentView.swift */; };
+		CF703B192B717A71006F1F06 /* PairingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF703B182B717A71006F1F06 /* PairingCard.swift */; };
 		CFBF48262B618A5100E86B0D /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF48252B618A5100E86B0D /* Checkbox.swift */; };
 		CFBF48282B618FFA00E86B0D /* WineDescriptorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF48272B618FFA00E86B0D /* WineDescriptorsListView.swift */; };
 		CFF959A32B360CBB0009736E /* vinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF959A22B360CBB0009736E /* vinoApp.swift */; };
@@ -73,6 +74,7 @@
 		CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingInfoView.swift; sourceTree = "<group>"; };
 		CF703B112B6ADEBB006F1F06 /* WineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineCard.swift; sourceTree = "<group>"; };
 		CF703B162B71456A006F1F06 /* AccountManagmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagmentView.swift; sourceTree = "<group>"; };
+		CF703B182B717A71006F1F06 /* PairingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingCard.swift; sourceTree = "<group>"; };
 		CFBF48252B618A5100E86B0D /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		CFBF48272B618FFA00E86B0D /* WineDescriptorsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineDescriptorsListView.swift; sourceTree = "<group>"; };
 		CFF9599F2B360CBB0009736E /* vino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vino.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				CF690DA22B54CDE7008B52F3 /* PairingsView.swift */,
 				CF703B0D2B6AD353006F1F06 /* PairingInfoView.swift */,
 				CF703B0B2B6AD105006F1F06 /* PairingListView.swift */,
+				CF703B182B717A71006F1F06 /* PairingCard.swift */,
 			);
 			path = Pairings;
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				CF690D832B48AE94008B52F3 /* NewVineyardView.swift in Sources */,
 				CF703B122B6ADEBB006F1F06 /* WineCard.swift in Sources */,
 				CF703B0E2B6AD353006F1F06 /* PairingInfoView.swift in Sources */,
+				CF703B192B717A71006F1F06 /* PairingCard.swift in Sources */,
 				CF703B172B71456A006F1F06 /* AccountManagmentView.swift in Sources */,
 				CFF959CF2B360FEB0009736E /* NewWineView.swift in Sources */,
 				CF690D9D2B5180D4008B52F3 /* VineyardMapView.swift in Sources */,
