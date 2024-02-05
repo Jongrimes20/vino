@@ -6,3 +6,5 @@
 - [ ] Add Account Managment: Account deletetion mandatory
 - [ ] Cloudkit data encryption
 - [ ] Make sure every previewable file has a working preview
+- [ ] Add Advertisements + Vino plus to remove adds
+
